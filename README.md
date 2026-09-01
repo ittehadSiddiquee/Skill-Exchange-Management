@@ -1,1 +1,1 @@
-# Skill-Exchange-Management
+# Campus-Skill-Exchange-Management
