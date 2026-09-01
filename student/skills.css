@@ -1,0 +1,136 @@
+.add-skill-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+.add-skill-box h3 {
+    margin-top: 0;
+    color: #1565c0;
+}
+
+.add-skill-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.add-skill-form input[type="text"] {
+    flex: 2;
+    min-width: 180px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.add-skill-form select {
+    flex: 1;
+    min-width: 130px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.add-skill-form button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.add-skill-form button:hover {
+    background-color: #0d47a1;
+}
+
+.section-title {
+    color: #1565c0;
+    margin-bottom: 12px;
+}
+
+.empty-text {
+    color: #777;
+    font-size: 14px;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 700px;
+}
+
+.skill-tag {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    border: 1px solid #dbe4ee;
+    border-radius: 20px;
+    padding: 8px 8px 8px 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.skill-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1565c0;
+}
+
+.skill-level {
+    font-size: 12px;
+    color: #777;
+    background-color: #f0f4f8;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.delete-skill-form {
+    display: inline;
+}
+
+.delete-x {
+    background-color: #fdecea;
+    color: #b71c1c;
+    border: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.delete-x:hover {
+    background-color: #f5c2c0;
+}
+
+.error-box {
+    background-color: #fdecea;
+    border: 1px solid #f5c2c0;
+    color: #b71c1c;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    max-width: 500px;
+}
+
+.success-box {
+    background-color: #e8f5e9;
+    border: 1px solid #a5d6a7;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    max-width: 500px;
+}
