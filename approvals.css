@@ -1,0 +1,85 @@
+.section-title {
+    color: #1565c0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.empty-text {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.approval-table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.approval-table th {
+    background-color: #1565c0;
+    color: white;
+    text-align: left;
+    padding: 10px 12px;
+    font-size: 13px;
+}
+
+.approval-table td {
+    padding: 10px 12px;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+.action-cell {
+    display: flex;
+    gap: 8px;
+}
+
+.inline-form {
+    display: inline;
+}
+
+.approve-btn {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.approve-btn:hover {
+    background-color: #1b5e20;
+}
+
+.reject-btn {
+    background-color: #c62828;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.reject-btn:hover {
+    background-color: #8e0000;
+}
+
+.success-box {
+    background-color: #e8f5e9;
+    border: 1px solid #a5d6a7;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    max-width: 500px;
+}
