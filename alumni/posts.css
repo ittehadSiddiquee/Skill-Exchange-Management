@@ -1,0 +1,137 @@
+.new-post-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+.new-post-box h3 {
+    margin-top: 0;
+    color: #1565c0;
+}
+
+.new-post-box label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.new-post-box input[type="text"],
+.new-post-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.new-post-box textarea {
+    resize: vertical;
+}
+
+.new-post-box button {
+    margin-top: 15px;
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.new-post-box button:hover {
+    background-color: #0d47a1;
+}
+
+.section-title {
+    color: #1565c0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.empty-text {
+    color: #777;
+    font-size: 14px;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+}
+
+.post-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 18px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.post-card h3 {
+    margin: 0 0 4px 0;
+    color: #1565c0;
+}
+
+.post-date {
+    font-size: 12px;
+    color: #999;
+    margin: 0 0 10px 0;
+}
+
+.post-content {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.post-link a {
+    font-size: 13px;
+    color: #1565c0;
+    word-break: break-all;
+}
+
+.delete-btn {
+    margin-top: 12px;
+    background-color: #c62828;
+    color: white;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #8e0000;
+}
+
+.error-box {
+    background-color: #fdecea;
+    border: 1px solid #f5c2c0;
+    color: #b71c1c;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    max-width: 500px;
+}
+
+.success-box {
+    background-color: #e8f5e9;
+    border: 1px solid #a5d6a7;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    max-width: 500px;
+}
