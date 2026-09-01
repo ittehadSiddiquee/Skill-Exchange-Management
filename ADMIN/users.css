@@ -1,0 +1,77 @@
+.filter-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.filter-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.filter-form input[type="text"] {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.filter-form button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filter-form button:hover {
+    background-color: #0d47a1;
+}
+
+.result-count {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.role-badge {
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.role-student { background-color: #e3f2fd; color: #1565c0; }
+.role-mentor { background-color: #e8f5e9; color: #2e7d32; }
+.role-alumni { background-color: #fff3e0; color: #ef6c00; }
+.role-admin { background-color: #f3e5f5; color: #6a1b9a; }
+
+.status-active {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status-inactive {
+    background-color: #f5f5f5;
+    color: #757575;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.no-action {
+    color: #ccc;
+}
